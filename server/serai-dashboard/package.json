@@ -1,0 +1,19 @@
+{
+  "name": "serai-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node --env-file=.env server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^12.0.0",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mqtt": "^5.10.0",
+    "socket.io": "^4.7.5"
+  },
+  "allowScripts": {
+    "better-sqlite3@12.11.1": true
+  }
+}
